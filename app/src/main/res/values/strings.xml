@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Academy LMS</string>
+    <string name="title_elearning">Academy Learning LMS</string>
+    <string name="provide_your_email_and_password_to_signup">Provide your Email and Password to Signup</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="register">Register</string>
+    <string name="image">Image</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Admin">Admin</string>
+    <string name="Tutor">Tutor</string>
+    <string name="User">User</string>
+</resources>

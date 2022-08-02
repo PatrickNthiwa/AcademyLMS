@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.academylms">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AcademyLMS"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tutor.TutorLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Tutor.ResetTutorPassword"
+            android:exported="true" />
+        <activity
+            android:name=".Tutor.RegisterTutor"
+            android:exported="true" />
+        <activity
+            android:name=".Tutor.TutorDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.AdminResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PlayVideo"
+            android:exported="true" />
+        <activity
+            android:name=".PlayCourse"
+            android:exported="true" />
+        <activity
+            android:name=".AddVideoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Tutor.AddCourse"
+            android:exported="true" />
+        <activity
+            android:name=".User.DashBoard"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.AdminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".Admin.AdminRegister"
+            android:exported="true" />
+        <activity
+            android:name=".User.ResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".User.RealDashboard"
+            android:exported="true" />
+         <activity
+            android:name=".User.Login"
+            android:exported="true" />
+        <activity
+            android:name=".User.Register"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "40298518853",
+    "firebase_url": "https://academy-36ea4-default-rtdb.firebaseio.com",
+    "project_id": "academy-36ea4",
+    "storage_bucket": "academy-36ea4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40298518853:android:0c8ee72f21213e9659862c",
+        "android_client_info": {
+          "package_name": "com.example.academylms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40298518853-soslei43aj1v80n9ojqud4klo7bhv6g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQqcq73AMni6JRYjJGrrSsSAiQZGLFtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40298518853-soslei43aj1v80n9ojqud4klo7bhv6g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
